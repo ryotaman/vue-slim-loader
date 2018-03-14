@@ -19,7 +19,7 @@ module.exports = {
 }
 ```
 
-** any.vue **
+**any.vue**
 ```html
 <template lang="slim">
 #app_id
