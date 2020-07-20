@@ -1,0 +1,23 @@
+{
+    "webhook": 
+        {
+                "name": "codepipelinedemo--Source--ryotamanvueslimloader--42795666",
+                "targetPipeline": "codepipeline-demo",
+                "targetAction": "Source",
+                "filters": [
+                    {
+                        "jsonPath": "$.ref",
+                        "matchEquals": "refs/heads/{Branch}"
+                    },
+                    {
+                        "jsonPath": "$.action",
+                        "matchEquals": "closed"
+                    }
+                ],
+                "authentication": "GITHUB_HMAC",
+                "authenticationConfiguration": {
+                    "SecretToken": "4286809369319424415435945075984228750477271615053311789717704160469821649953813575954815749078834"
+                }
+        }
+    
+}
