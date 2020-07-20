@@ -30,6 +30,3 @@ module.exports = {
 <script>
 </script>
 ```
-
-# PR test 1
-
