@@ -8,10 +8,6 @@
                     {
                         "jsonPath": "$.ref",
                         "matchEquals": "refs/heads/{Branch}"
-                    },
-                    {
-                        "jsonPath": "$.action",
-                        "matchEquals": "closed"
                     }
                 ],
                 "authentication": "GITHUB_HMAC",
